@@ -1,0 +1,1182 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #49~20.04.1-Ubuntu SMP Thu Aug 4 19:15:44 UTC 2022
+Kernel version:          5.15.0-46-generic
+Architecture:            x86_64
+Available memory:        10858 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:30578): Gdk-CRITICAL **: 11:39:04.703: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/sean/Documents/poc/poc/unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+32903
+Successfully changed project path to: /home/sean/Documents/poc/poc/unity/My project
+/home/sean/Documents/poc/poc/unity/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /home/sean/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/sean/Documents/poc/poc/unity/My project/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon(TM) Vega 8 Graphics (RAVEN, DRM 3.42.0, 5.15.0-46-generic, LLVM 12.0.0)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 21.2.6
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB
+_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_
+rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_textur
+e_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1916858272
+Initialize mono
+Mono path[0] = '/home/sean/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = '/home/sean/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/sean/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56578
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/sean/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007565 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 112.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/sean/Documents/poc/poc/unity/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/sean/Documents/poc/poc/unity/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (73.4 KB). Loaded Objects now: 3856.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 14.326562 ms (FindLiveObjects: 0.489708 ms CreateObjectMapping: 0.363212 ms MarkObjects: 13.173079 ms  DeleteObjects: 0.298490 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9599.771444 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae9d845dc2780854844ff5632f197bc') in 0.255452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.603667 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2326ce7553fd127c4f2caa4326523c78') in 0.021643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.132799 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb54aad08e55727933c686db8b14eae1') in 0.015578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.840107 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afcdb41aa62e342e4fe6ca24f7f7322') in 0.019158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184264 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b9ef04fe6ccdb83dc879190aebb92c') in 0.014573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.491610 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7f5c4335e8088bfa4c9815ba52fe49') in 0.023550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.803279 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a22284e75a0b3667f266dbec42a3b4b') in 0.018991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.191573 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2857c6ffcb163933397c3c281aad6f9') in 0.018484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.603783 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a7ad4bc008b9260c9e202f6920621') in 0.019804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578258 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ede1d66be496c9febc8de62cd8815fa') in 0.021451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.382427 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56df7e8414c0d980e2987bb29876f2e2') in 0.016378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173521 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea0b07c24b509d23133385314a682f2') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.638605 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b3f0415657555f70025fe2bd9eae0b') in 0.020436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.005667 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a866efc7ad8a3fe97fc22d81596580') in 0.019917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.614456 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de3b9b25d6508edb7a2d2d0cba8bb8') in 0.020008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.843137 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1058b80c2dccd13a57c664b0378b2b') in 0.016706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.236551 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791a0e523bea0e9a317722fc43733890') in 0.021683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.811061 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf83e5c192589fd2ff7186007a2eb3d') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399716 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e501b50c1edad06e3e5e51d0ffa838ce') in 0.022487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.397406 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6d97e8ba02b6ea73a836aa4abaf3f') in 0.016269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.591084 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637e02abbea1e60b8221a3dc55817180') in 0.021028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.719909 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee639a69bf98e390f4be83ae48fe948') in 0.020136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.377472 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2617cb50163ad9d7c889a73c093f9') in 0.021008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.717673 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df2742d636c13507710d207dff4620f') in 0.021079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.203479 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de963866dc66fc6153eb08c64a9c61be') in 0.023038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.630743 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2073b3217f0352741a223c121191df') in 0.018785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.631296 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eb33f6eccde0ba62d14822304cdbdd') in 0.020903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.736310 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716c14eafa045a5101e7b180907de7e') in 0.020777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.389674 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fcdfe9bd75f329f454545d2d3c24bd') in 0.020133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.089067 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aacdae0ce65d6032c541a26bd8967c2') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.194259 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d015bfd98c82bdef91960cda88cb5e') in 0.019939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.191427 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fe0230d1eb021d51a0fca0a65fdbd7') in 0.022544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.141027 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3664cdd80f1a10630f0297d3a797bf') in 0.018420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.335545 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3d87f7a74c22d82c1b3c61738a55e5') in 0.016769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.249831 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5cf5e76cb3cc5e65979db76cd60723') in 0.020990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185230 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1057cbcc3b080fc94c959f7be4eabcb') in 0.021728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.746020 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6c3f62cb5a90d0fcc04bebe051fd56') in 0.020168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.289602 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2bdb4383002f7844750e7832425b8d') in 0.019779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.050680 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974a9487e654dabda5af21f960a9d9ae') in 0.023748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.016209 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1849037eb3b59ee0e4bb06a22f95be') in 0.018581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.958101 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10409d62fe7387297ab6906d06c6e89') in 0.021428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.139399 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8b3ab90cc41f8379560452bc2df772') in 0.019735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.600180 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f77bb4acab55f9edbd4ab8848ce37e2') in 0.018404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.237999 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da77f21a3fc7058bbb73206b20d9d080') in 0.025732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399527 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d199ae05dba3ec6618988619a0f007') in 0.019817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.772726 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb86f44ab66a574d48900db2378531b') in 0.022435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.292926 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bcea84ebf53ac7f5075d07616c330a') in 0.022233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.612189 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9361d01b578561d62f6a5f27c70cb3') in 0.020862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.801052 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94ab65fe27446e1fa640b0ad4b45c2d') in 0.018546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.390505 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b60ad3a9fa3cfebddf266a5d2ad814') in 0.019252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.511799 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb883b10b0b152c44dab3e02f2f1848') in 0.019606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.645171 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c8295b60b0c478118751a469eb70f8') in 0.022905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.619804 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbdce446ef0402fb103bd2a6511c169') in 0.023371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208886 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983ce3376232be0803b9e713f0273ed7') in 0.022743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593950 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5702d86fdb2900b07f34898eff3639') in 0.021544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.195569 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed70c59de53e371de7c56925bf110f5a') in 0.019857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.384688 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2618a90feab303976966efe18f7d89') in 0.022480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.130205 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2f0c7c3f6810b46351fbf6e04ae302') in 0.019877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.859812 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0508440edc98e484e8d1312d1f3b47fa') in 0.020732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.992498 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353c578c1f0a384c2bd2e97c03711ab6') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.225256 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270793b10f8a7b21542478503c140492') in 0.022863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.155694 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0422150aa90b76ec5511dc59fbfa2a82') in 0.026236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.231091 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3371be0718c4b4ed342bbc22747fc522') in 0.026147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.013797 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deee069160fbc6568761ccacb94a522') in 0.021481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.025274 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e879fce7fc2aa0dded3040714698c') in 0.027660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.413819 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04555b5aac9c5c33a979060a4fa7409b') in 0.020705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.530151 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39110684d30ae9cbe45a6ac9f28a1675') in 0.026506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.197454 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47029843fe714d6c1b85fc3dc41a2356') in 0.023145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.627708 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67098525bf2a344c3af53215e25c1214') in 0.023211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.568525 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e462de5926c38c47303196ad2c9bb4d') in 0.022919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.084576 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc18898c553b97d8119e9a4e414ef48') in 0.023918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.750869 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d57a1bbfacbc8fd44b5ca4b492941a') in 0.022110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.225855 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28fd7c101c018b88e3cd1b2351fe74c') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.941588 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10748712d896e9377a6d56abead63c3') in 0.021413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.059627 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c92c59a78b147ef38787d863fe0a5f') in 0.022503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.710875 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fe7709bca979fccbfa8bb6e2a57f4a') in 0.020709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.783721 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bb9b3bb325307dcde3ed2eb1262bd5') in 0.020510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.752524 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dbdf065d97031ed77d485dac3c71fb') in 0.021727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602753 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3909db0e5bdc3e9dfb1a2b09c7fe15c0') in 0.021107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.477242 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec32ebc104bda27ff975e3b4eaf553a') in 0.022990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.184873 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4b2ae44c0e05e28a70c61f525de82b') in 0.020108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.617287 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02be6cebfed2e7d08d3ccf85296c4e21') in 0.025132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.149896 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c6a1347c3bf309c311fad2df430a2f') in 0.020014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.245279 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ab0d33ece681aa193a608bb2a3a924') in 0.020583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.103377 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b33dbaa33b5bdf14bf9e88f47278d8a') in 0.024201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.916832 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904f2eee1d713345b3a95e5abff9f2ab') in 0.018512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.055627 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc48b0375c1e874a27d44e31fe4b96f') in 0.023576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.078690 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad6fa9d8b3699b1e53140dedf11f497') in 0.019487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.460058 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a2509ea40a15e35f46e35d4f2177f') in 0.020443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.754138 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feaffa2761a3a9dfc9dd27d16de2634') in 0.027246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.243765 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c615951eae4e8a68ad2001743652a9b1') in 0.021718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.651651 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f687b2adf7af0d523b24d27bff7c9776') in 0.018884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.021518 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf991131ee7b41641236c6481415aad') in 0.020820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.217667 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e16bb89f82a8921e8f99d89a1a69fa') in 0.021300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.332279 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d8382b812066e23c251a210bf0b764') in 0.019871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.810309 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1fadb8889fa435427ded189c7750bc') in 0.021064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.189757 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d1a9a5daab2378242c6f6b59d16fef') in 0.023010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.174437 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27672715727c4cd73d60e4d96deab6b5') in 0.025051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.048943 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93f6a6729e1a79eda6e80013673b9cc') in 0.019454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.247017 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae72320025e656f6c58318eeb538a7ea') in 0.026851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.057136 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6be89f3f0fb00047d9d2546f17ce11c') in 0.025619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.730505 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e118587ec7ff08bbc1dca711b2d11b9b') in 0.023616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.858732 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c435bb70e3a8150cf96cfe06bce126cd') in 0.023109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.409183 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa40fd180a8d96a06e65c851f7e7df2') in 0.023523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.483508 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624df75862735159fa8a554a8b4d696a') in 0.021806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.416038 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b386e72c1a77f0eb1f201d2ed55629') in 0.017667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399805 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0818b0f767428214f8bfa84789f5d9') in 0.024245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.453580 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac45f0277d34371d99eb64f0a735829') in 0.024982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.788092 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330b9ebe18eb22bd198da79b5680c47f') in 0.022516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.190557 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610f7df2e05c8c5425ffed02f1c2aa66') in 0.023084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.092852 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3a03b7908146886a9985fdc56de4a7') in 0.023732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.286262 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4eabb3f6a12767ca404294f4916f76') in 0.023980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.806862 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc37eb5c309169a16dbb472b58a959a') in 0.021076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.269553 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dae0806f4b99ec34f0782f7fedc3ddb') in 0.021632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.280961 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d81c9884f2e30356deb61d71af1a964') in 0.024361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.561772 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee5642f63ce6ff17d20e2ddf186057c') in 0.021738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.986038 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3bce05ad4fab039611906cc7614e7e') in 0.021599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.766284 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5a9624c6b11eacb178615e0ddfc1a0') in 0.022659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.893295 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f222ed0f9ba9a4c1d5ea66584b33e11a') in 0.022313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.426285 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a27cc1452d65535831c3bc55385d171') in 0.025862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.872020 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db53167eefbcd41b011ff578eeefe8ff') in 0.023508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.034710 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20017868eb68f01425f68cd0b8d257a') in 0.026749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.746854 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435297b1bee20bea9262bcb23e033329') in 0.024086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.815759 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eac8ec2e5e50e38c7097f4f35a86472') in 0.026492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.611374 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f98e7cb81c2cfacc5d35915d516d969') in 0.022979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.867860 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b866e4f216c6f0b245584ac03de98e0') in 0.020731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593561 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f4580c7f13ff98191bf428d7916d3') in 0.023387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.174003 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751ea64ef3fac7f31110ce1645d3d470') in 0.027660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.895165 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc885fa23077696f89f1b0d775c9386') in 0.025366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.227468 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e416fdcdb6642ae0767ac1da16506e5a') in 0.021787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173251 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80638edf9db579f9e5a13ccd132f30ff') in 0.022758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.431209 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd89190e9fd4f13919b2f0525d537f1') in 0.019083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.617053 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c31f8e26dd07f040ce1ae9e78f80cba') in 0.019548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.783006 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee795b995d5278e1646346ac5cd6545b') in 0.023146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.019782 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc00139a163523935ad5807c0f400d09') in 0.019580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.160540 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ee9d4c28657eb4ff7688cdeaac086a') in 0.024181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.350099 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b51af5899ced0a375e1946dfe29030e') in 0.023363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.123257 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c410a680ad444cb37743d805d889d25f') in 0.022759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.587270 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d044ec286bd030fd01abb1feb8890c') in 0.020582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.057870 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1790105b7318ab3195ddbb0bc7cb347') in 0.020010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.956766 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564179ea204cd652e1f6ed1e87a89574') in 0.026257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.259483 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde582cf9b610fc3fa85e821e92797f8') in 0.025856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.937926 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a93767ee89957519e63e00fe12c45') in 0.019220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.629299 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a76f0e3b2aa3a7ad7b9bec0d4e8c7e') in 0.019689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.383463 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9532dd854f6be5532761efcb5ab855a1') in 0.027303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.807384 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ed773200c5586c8cb7d02e3d9e7a55') in 0.020288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.044056 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a34921ce6e1ca1d5513e34a804075') in 0.023925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.037093 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4c2a5b27e02e740d0c02402bd353f7') in 0.024761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.843279 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714d46550e7ae47453897c7c3c949f3e') in 0.018502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.095895 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1577949e48ad39e4f0290a5948a31f98') in 0.022059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.614007 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6d1487ecd39a3f43054ed029d59cec') in 0.023208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.803678 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b0dd55ea731b8cf9cc14c866ca57f1') in 0.020297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586207 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e30a1c54499811463b12c2f24cf9c80') in 0.021968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.722550 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5301363fc7af4b4d18dfb30dd832fbf6') in 0.015878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.852428 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e198362ae46e77b593ab180dfda541') in 0.024165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.207343 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dbc12e294238db480541ed832ca0c5') in 0.023621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.059197 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5335b8930ff0d328921191e805740d5b') in 0.022489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.994381 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f81f1f6b3d9a453904c3e0033a6b97') in 0.021902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.988497 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9835cf816efb2e08e8bdfb1e42e8ca77') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.213928 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c068895b7e2ca63fa8d76b2fb28ab54') in 0.022955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.825275 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6629628eacddb9c3d819e5a03f0563') in 0.024900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.820081 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501b95a0d2850abe377b2ae91468af08') in 0.017897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391503 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b662dc3c2facb59bc307d12612dd5a3') in 0.026748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.420023 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747e04828ce4039d6f74a54152b388c6') in 0.025898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.258885 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5798a5f375c1237cf645be531598013b') in 0.024298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.882160 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0a8e8172cf5265d25560c5f389d5b0') in 0.021824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.472908 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e73c4d00e96acc8e9efae29081c816') in 0.025973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.642201 seconds.
+  path: Assets/Maze.prefab
+  artifactKey: Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maze.prefab using Guid(e095b0e945a7af9239bfd52eba09b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40250a601003adb2ffee2ab29efb2bb3') in 0.016676 seconds 
